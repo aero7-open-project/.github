@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/memegeko/aero7/beta/installer/assets/aero7-logo-circle.png" width="150" alt="Aero7 logo">
+<img src="https://raw.githubusercontent.com/aero7-open-project/aero7/beta/installer/assets/aero7-logo-circle.png" width="150" alt="Aero7 logo">
 
 # AERO7 OPEN PROJECT
 
 ### The familiar Aero desktop, rebuilt on modern Linux.
 
-[![Aero7 Beta 1](https://img.shields.io/badge/Aero7-Beta%201-53D9E8?style=for-the-badge&labelColor=073A73)](https://github.com/memegeko/aero7/releases/tag/v0.1.0-beta.1)
+[![Aero7 Beta 1](https://img.shields.io/badge/Aero7-Beta%201-53D9E8?style=for-the-badge&labelColor=073A73)](https://github.com/aero7-open-project/aero7/releases/tag/v0.1.0-beta.1)
 [![Arch Linux](https://img.shields.io/badge/Arch-Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white&labelColor=06366B)](https://archlinux.org/)
 [![KDE Plasma 6](https://img.shields.io/badge/KDE-Plasma%206-7EDFF2?style=for-the-badge&logo=kde&logoColor=white&labelColor=075AA6)](https://kde.org/plasma-desktop/)
 [![Wayland](https://img.shields.io/badge/Session-Wayland-7CFF6B?style=for-the-badge&labelColor=064B62)](https://wayland.freedesktop.org/)
 
 [**Official Website**](https://aero7.miku-dayo.com/) ·
-[**Download Beta 1**](https://github.com/memegeko/aero7/releases/tag/v0.1.0-beta.1) ·
-[**Documentation**](https://github.com/memegeko/aero7/blob/beta/wiki/Home.md) ·
-[**Report a bug**](https://github.com/memegeko/aero7/issues/new)
+[**Download Beta 1**](https://github.com/aero7-open-project/aero7/releases/tag/v0.1.0-beta.1) ·
+[**Documentation**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) ·
+[**Report a bug**](https://github.com/aero7-open-project/aero7/issues/new)
 
 </div>
 
@@ -30,8 +30,8 @@ experience from installer to desktop.
 
 **Aero7 Beta 1** includes a guided graphical installer, first-boot setup,
 AeroShell workspace, familiar system tools, signed Aero7 packages, and a
-focused Plasma desktop. It is beta software intended for testing on x86-64 UEFI
-PCs and virtual machines—back up important data before installing.
+focused Plasma desktop. It is beta software for x86-64 UEFI systems—back up
+important data before installing.
 
 <table>
 <tr>
@@ -46,11 +46,11 @@ PCs and virtual machines—back up important data before installing.
 
 | Destination | What you will find |
 | --- | --- |
-| [**Download Aero7 Beta 1**](https://github.com/memegeko/aero7/releases/tag/v0.1.0-beta.1) | ISO image, checksum, and release information |
+| [**Download Aero7 Beta 1**](https://github.com/aero7-open-project/aero7/releases/tag/v0.1.0-beta.1) | ISO image, checksum, and release information |
 | [**Aero7 website**](https://aero7.miku-dayo.com/) | Project overview, news, downloads, and screenshots |
-| [**Aero7 handbook**](https://github.com/memegeko/aero7/blob/beta/wiki/Home.md) | Installation, OOBE, included software, troubleshooting, architecture, and building |
-| [**Installation guide**](https://github.com/memegeko/aero7/blob/beta/wiki/Installation.md) | USB, VM, checksum, recovery, and installation instructions |
-| [**Known issues**](https://github.com/memegeko/aero7/blob/beta/wiki/Known-Issues.md) | Current Beta 1 limitations and workarounds |
+| [**Aero7 handbook**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) | Installation, OOBE, included software, troubleshooting, architecture, and building |
+| [**Installation guide**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Installation.md) | USB, checksum, recovery, and installation instructions |
+| [**Known issues**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Known-Issues.md) | Current Beta 1 limitations and workarounds |
 
 > [!IMPORTANT]
 > Aero7 Beta 1 is experimental software. Use UEFI, disable Secure Boot, verify
@@ -58,18 +58,21 @@ PCs and virtual machines—back up important data before installing.
 
 ## Aero7 projects
 
-The current Aero7 code is maintained under
-[**memegeko**](https://github.com/memegeko). These repositories work together
-to build the distribution and its desktop experience:
+The Aero7 applications and distribution are maintained by the
+[**Aero7 Open Project**](https://github.com/aero7-open-project). The stable
+shell and the live package service remain under the project founder's account
+so existing installations keep their established package URL.
 
 | Repository | Purpose |
 | --- | --- |
-| [**memegeko/aero7**](https://github.com/memegeko/aero7) | Main Aero7 distribution, ISO builder, graphical installer, OOBE, documentation, and releases |
+| [**aero7-open-project/aero7**](https://github.com/aero7-open-project/aero7) | Main Aero7 distribution, ISO builder, graphical installer, OOBE, documentation, and releases |
 | [**memegeko/aero7-repo**](https://github.com/memegeko/aero7-repo) | Signed binary package repository consumed by the installer and installed system |
 | [**memegeko/aero7-shell**](https://github.com/memegeko/aero7-shell) | Aero desktop integration, recovery tooling, application recipes, and post-install setup |
-| [**memegeko/aero7-control-panel-**](https://github.com/memegeko/aero7-control-panel-) | Familiar graphical Control Panel for Aero7 system settings |
-| [**memegeko/aero7-computer-management**](https://github.com/memegeko/aero7-computer-management) | Computer Management tools for storage, devices, services, and system administration |
-| [**memegeko/aero7-programs-center**](https://github.com/memegeko/aero7-programs-center) | Graphical software installation and update center for Aero7 |
+| [**aero7-open-project/aero7-control-panel-**](https://github.com/aero7-open-project/aero7-control-panel-) | Familiar graphical Control Panel for Aero7 system settings |
+| [**aero7-open-project/aero7-computer-management**](https://github.com/aero7-open-project/aero7-computer-management) | Computer Management tools for storage, devices, services, and system administration |
+| [**aero7-open-project/aero7-programs-center**](https://github.com/aero7-open-project/aero7-programs-center) | Graphical software installation and update center for Aero7 |
+| [**aero7-open-project/linux-devmgmt**](https://github.com/aero7-open-project/linux-devmgmt) | Linux-backed Device Manager used by Aero7 |
+| [**aero7-open-project/aerothemeplasma**](https://github.com/aero7-open-project/aerothemeplasma) | Aero7-maintained Plasma 6 theme integration |
 
 ## Contributing
 
@@ -79,11 +82,11 @@ translations, packaging work, and verified application integrations.
 1. Choose the repository responsible for the part you want to improve.
 2. Read its README, contribution guidance, licensing notes, and open issues.
 3. Fork the repository and create a focused branch.
-4. Test the change on a disposable VM or suitable test machine.
+4. Test the change in an appropriate isolated environment or on suitable test hardware.
 5. Open a pull request explaining what changed and exactly what you tested.
 
 For distribution-wide problems, start with the
-[main Aero7 issue tracker](https://github.com/memegeko/aero7/issues).
+[main Aero7 issue tracker](https://github.com/aero7-open-project/aero7/issues).
 When contributing third-party code or artwork, include its origin and license;
 do not submit proprietary Microsoft assets.
 
@@ -110,8 +113,8 @@ automatically grant rights to every bundled or referenced visual asset.
 ### <sub>💠 MODERN LINUX · CLASSIC AERO SPIRIT · OPEN DEVELOPMENT 💠</sub>
 
 [Website](https://aero7.miku-dayo.com/) ·
-[Download](https://github.com/memegeko/aero7/releases/tag/v0.1.0-beta.1) ·
-[Documentation](https://github.com/memegeko/aero7/blob/beta/wiki/Home.md) ·
-[Source](https://github.com/memegeko/aero7)
+[Download](https://github.com/aero7-open-project/aero7/releases/tag/v0.1.0-beta.1) ·
+[Documentation](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) ·
+[Source](https://github.com/aero7-open-project/aero7)
 
 </div>
