@@ -6,21 +6,27 @@
 
 ### The familiar Aero desktop, rebuilt on modern Linux.
 
-[![Aero7 Beta 2](https://img.shields.io/badge/Aero7-Beta%202-53D9E8?style=for-the-badge&labelColor=073A73)](https://github.com/aero7-open-project/aero7/releases/tag/v0.2.0-beta.2)
+![Beta 2 status](https://img.shields.io/badge/Beta%202-in%20testing-orange?style=for-the-badge)
 [![Arch Linux](https://img.shields.io/badge/Arch-Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white&labelColor=06366B)](https://archlinux.org/)
 [![KDE Plasma 6](https://img.shields.io/badge/KDE-Plasma%206-7EDFF2?style=for-the-badge&logo=kde&logoColor=white&labelColor=075AA6)](https://kde.org/plasma-desktop/)
 [![Wayland](https://img.shields.io/badge/Session-Wayland-7CFF6B?style=for-the-badge&labelColor=064B62)](https://wayland.freedesktop.org/)
 
-[**Download Beta 2**](https://aero7.miku-dayo.com/) ·
+[**Beta 2 testing status**](https://github.com/aero7-open-project/aero7/blob/beta/README.md) ·
 [**Documentation**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) ·
-[**Release notes**](https://github.com/aero7-open-project/aero7/releases/tag/v0.2.0-beta.2) ·
+[**Draft release notes**](https://github.com/aero7-open-project/aero7/blob/beta/docs/BETA2-RELEASE-NOTES.md) ·
 [**Report a bug**](https://github.com/aero7-open-project/aero7/issues/new/choose)
 
 </div>
 
 ---
 
-## Aero7 Beta 2
+> [!WARNING]
+> **Aero7 Beta 2 has NOT been publicly released.** Bugs are being fixed and
+> stability testing is still in progress. There is no approved public Beta 2
+> ISO download or announced release date. Historical September source tags
+> and VM-tested images do not mean Beta 2 has shipped.
+
+## Aero7 Beta 2 — under development
 
 Aero7 is an independent, open-source Linux distribution that brings the calm,
 glassy desktop spirit of the late 2000s to a modern Arch Linux, Plasma 6 and
@@ -42,18 +48,17 @@ into one consistent experience from setup to login.
 | **Familiar tools** | File Explorer, 45-item Control Panel, Device Manager, Computer Management, Gadgets and optional Programs Center Beta. |
 
 > [!IMPORTANT]
-> GitHub Releases contain source and release notes, not ISO files. Download
-> installation media and checksums only from the
-> [official Aero7 website](https://aero7.miku-dayo.com/). Beta software can
-> contain serious bugs: back up important files, disconnect unrelated drives
-> and verify the selected target disk before installing.
+> **Beta 2 downloads are not available yet.** When the release is approved,
+> download installation media and checksums only from the
+> [official Aero7 website](https://aero7.miku-dayo.com/).
+> Back up data and verify the target disk before any beta installation.
 
 ## Start here
 
 | Destination | What you will find |
 | --- | --- |
-| [**Download Aero7 Beta 2**](https://aero7.miku-dayo.com/) | Official offline and online ISO downloads plus checksum information |
-| [**Beta 2 release notes**](https://github.com/aero7-open-project/aero7/releases/tag/v0.2.0-beta.2) | Highlights, supported scope, safety notes and source tag |
+| [**Beta 2 status — testing**](https://github.com/aero7-open-project/aero7/blob/beta/README.md) | Work in progress; no approved public download or release date |
+| [**Draft Beta 2 release notes**](https://github.com/aero7-open-project/aero7/blob/beta/docs/BETA2-RELEASE-NOTES.md) | Candidate features, historical test scope and remaining release gates |
 | [**Aero7 handbook**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) | Installation, OOBE, software, troubleshooting, architecture and testing |
 | [**Installation guide**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Installation.md) | ISO choice, checksum verification, USB/VM setup and disk safety |
 | [**Known issues**](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Known-Issues.md) | Current Beta 2 limitations and workarounds |
@@ -98,7 +103,7 @@ components and does not include a licensed copy of Microsoft Windows.
 ### <sub>MODERN LINUX · CLASSIC AERO SPIRIT · OPEN DEVELOPMENT</sub>
 
 [Website](https://aero7.miku-dayo.com/) ·
-[Beta 2](https://github.com/aero7-open-project/aero7/releases/tag/v0.2.0-beta.2) ·
+[Beta 2: in testing](https://github.com/aero7-open-project/aero7/blob/beta/README.md) ·
 [Documentation](https://github.com/aero7-open-project/aero7/blob/beta/wiki/Home.md) ·
 [Source](https://github.com/aero7-open-project/aero7)
 
